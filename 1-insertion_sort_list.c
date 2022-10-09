@@ -1,5 +1,11 @@
 #include "sort.h"
 
+/**
+ * swapNodes - swaps nodes in a doubly linked list
+ * @node: current node to be swapped
+ * Return: nothing
+ */
+
 void swapNodes(listint_t *node)
 {
 	listint_t *p, *pp, *n;
