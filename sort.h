@@ -28,4 +28,8 @@ void quick_sort(int *array, size_t size);
 void swap(int *x, int *y);
 void swapNodes(listint_t *node);
 listint_t *create_listint(const int *array, size_t size);
+void selection_sort(int *array, size_t size);
+size_t partition(int *array, ssize_t lo, ssize_t hi, size_t size);
+void quicksort(int *array, ssize_t lo, ssize_t hi, size_t size);
+
 #endif
