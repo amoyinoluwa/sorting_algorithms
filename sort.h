@@ -33,5 +33,6 @@ size_t partition(int *array, ssize_t lo, ssize_t hi, size_t size);
 void quicksort(int *array, ssize_t lo, ssize_t hi, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 void counting_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
 
 #endif
